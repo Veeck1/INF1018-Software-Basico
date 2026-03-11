@@ -1,0 +1,15 @@
+# Arquivos objeto e dependencias gerados na compilacao
+*.o
+*.obj
+*.d
+
+# Binarios e saidas comuns
+*.out
+*.exe
+
+# Binarios dos exercicios (ex1, ex2, ...)
+lab*/ex*
+
+# Mantem arquivos-fonte versionados
+!lab*/*.c
+!lab*/*.h
